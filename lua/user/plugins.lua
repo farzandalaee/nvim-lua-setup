@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
   use "christoomey/vim-system-copy"
   use "ellisonleao/gruvbox.nvim"
+  use "simrat39/symbols-outline.nvim"
   -- projects
   use "ahmedkhalf/project.nvim"
   -- cmp plugins
