@@ -52,6 +52,11 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-tree.lua'
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
+  use "folke/which-key.nvim"
+  use "christoomey/vim-system-copy"
+  use "ellisonleao/gruvbox.nvim"
+  -- projects
+  use "ahmedkhalf/project.nvim"
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -76,6 +81,11 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   -- Git
   use "lewis6991/gitsigns.nvim"
+  -- Lualine
+  use 'nvim-lualine/lualine.nvim'
+  -- Trouble nvim
+  use 'folke/trouble.nvim'
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

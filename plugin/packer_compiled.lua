@@ -129,6 +129,16 @@ _G.packer_plugins = {
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -184,6 +194,11 @@ _G.packer_plugins = {
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["project.nvim"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/project.nvim",
+    url = "https://github.com/ahmedkhalf/project.nvim"
+  },
   ["telescope-media-files.nvim"] = {
     loaded = true,
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
@@ -199,10 +214,25 @@ _G.packer_plugins = {
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
+  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["vim-system-copy"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/vim-system-copy",
+    url = "https://github.com/christoomey/vim-system-copy"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/Users/farzan/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
