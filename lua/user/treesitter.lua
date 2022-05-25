@@ -1,5 +1,6 @@
 require 'nvim-treesitter.configs'.setup {
   ignore_install = { "phpdoc" },
+  sync_install = true,
   ensure_installed = {
     "bash",
     "cmake",

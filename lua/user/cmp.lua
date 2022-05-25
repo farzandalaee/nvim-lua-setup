@@ -110,6 +110,7 @@ cmp.setup {
     end,
   },
   sources = {
+    { name = 'emoji' },
     { name = "nvim_lsp" },
     { name = "nvim_lua" },
     { name = "luasnip" },

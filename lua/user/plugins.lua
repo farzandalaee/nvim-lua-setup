@@ -56,6 +56,7 @@ return packer.startup(function(use)
   use "christoomey/vim-system-copy"
   use "ellisonleao/gruvbox.nvim"
   use "simrat39/symbols-outline.nvim"
+  use "hrsh7th/cmp-emoji"
   -- projects
   use "ahmedkhalf/project.nvim"
   -- cmp plugins
@@ -74,7 +75,8 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   -- Telescope
   use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
+  use "nvim-telescope/telescope-media-files.nvim"
+  use "nvim-telescope/telescope-file-browser.nvim"
   -- Treesitter
   use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate"}
   use "JoosepAlviste/nvim-ts-context-commentstring"
