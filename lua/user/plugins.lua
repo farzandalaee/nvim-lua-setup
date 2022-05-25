@@ -83,9 +83,11 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim"
   -- Lualine
-  use 'nvim-lualine/lualine.nvim'
+  use "nvim-lualine/lualine.nvim"
   -- Trouble nvim
-  use 'folke/trouble.nvim'
+  use "folke/trouble.nvim"
+  --- Alpha greeter
+  use "goolord/alpha-nvim"
 
 
   -- Automatically set up your configuration after cloning packer.nvim
