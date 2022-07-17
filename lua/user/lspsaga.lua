@@ -6,6 +6,6 @@ end
 
 -- change the lsp symbol kind
 local kind = require('lspsaga.lspkind')
-kind[type_number][2] = icon 
+kind[type_number][2] = icon
 
 lspsaga.init_lsp_saga()
