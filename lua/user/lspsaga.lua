@@ -9,3 +9,4 @@ local kind = require('lspsaga.lspkind')
 kind[type_number][2] = icon
 
 lspsaga.init_lsp_saga()
+

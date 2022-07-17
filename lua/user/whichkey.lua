@@ -105,9 +105,9 @@ local mappings = {
   },
   c = {
     name = "Code",
-    f = { "<cmd>lua vim.lsp.buf.formatting_sync()<cr>", "Format code" },
+    f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format code" },
     r = { "<cmd>Lspsaga rename<cr>", "Rename variable" },
-    a = { "<cmd>Lspsaga code_action<cr>", "Rename variable" },
+    a = { "<cmd>Lspsaga code_action<cr>", "Code actions" },
     s = { "<cmd>Lspsaga signature_help<cr>", "Signature Help" },
     o = { "<cmd>SymbolsOutline<cr>", "Symbols Outline" },
   },

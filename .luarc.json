@@ -6,6 +6,7 @@
         "pcall",
         "type_number",
         "icon",
-        "on_attach"
+        "on_attach",
+        "bufnr"
     ]
 }

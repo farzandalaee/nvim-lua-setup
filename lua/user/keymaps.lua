@@ -65,3 +65,10 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- Lspsaga
+local bufopts = { noremap=true, silent=true, buffer=bufnr }
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
+vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, bufopts)
+vim.keymap.set("n", "gu", ":Lspsaga lsp_finder<CR>", bufopts)
+vim.keymap.set('n', 'gl', vim.diagnostic.open_float, opts)
+vim.keymap.set('n', 'gh', vim.lsp.buf.hover, bufopts)
