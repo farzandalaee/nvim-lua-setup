@@ -70,9 +70,8 @@ return packer.startup(function(use)
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
   -- LSP
-  use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
-  use "tami5/lspsaga.nvim"
+  use "neovim/nvim-lspconfig" -- enable LSP
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
@@ -90,6 +89,20 @@ return packer.startup(function(use)
   use "folke/trouble.nvim"
   --- Alpha greeter
   use "goolord/alpha-nvim"
+  -- indenting
+  use "lukas-reineke/indent-blankline.nvim"
+  -- nvim-surround
+  use "kylechui/nvim-surround"
+  -- lspsaga
+  use({
+    "glepnir/lspsaga.nvim",
+    branch = "main",
+    config = function()
+        local saga = require("lspsaga")
+
+        saga.init_lsp_saga()
+    end,
+})
 
 
   -- Automatically set up your configuration after cloning packer.nvim
