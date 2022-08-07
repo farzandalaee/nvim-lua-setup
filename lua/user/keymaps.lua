@@ -47,8 +47,8 @@ keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
 -- Move text up and down
-keymap("v", "<A-j>", ":m .+1<CR>==", opts)
-keymap("v", "<A-k>", ":m .-2<CR>==", opts)
+keymap("v", "<A-j>", ":m .+1<CR>", opts)
+keymap("v", "<A-k>", ":m .-2<CR>", opts)
 keymap("v", "p", '"_dP', opts)
 
 -- Visual Block --
@@ -70,5 +70,6 @@ local bufopts = { noremap=true, silent=true, buffer=bufnr }
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
 vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, bufopts)
 vim.keymap.set("n", "gu", ":Lspsaga lsp_finder<CR>", bufopts)
-vim.keymap.set('n', 'gl', vim.diagnostic.open_float, opts)
-vim.keymap.set('n', 'gh', vim.lsp.buf.hover, bufopts)
+vim.keymap.set('n', 'gh', ":Lspsaga hover_doc<CR>", bufopts)
+vim.keymap.set('n', 'gi', vim.lsp.buf.signature_help, bufopts)
+vim.keymap.set('n', 'gl', ":Lspsaga show_line_diagnostics<CR>", bufopts)
